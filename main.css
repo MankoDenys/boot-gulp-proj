@@ -1,0 +1,111 @@
+@import './css/discount.css';
+@import './css/program.css';
+@import './css/production.css';
+@import './css/office.css';
+@import './css/service.css';
+@import './css/store.css';
+body {
+  background: url(http://oboi-dlja-stola.ru/file/10001/760x0/16:9/%D0%97%D0%B5%D0%BB%D0%B5%D0%BD%D1%8B%D0%B9-%D0%BB%D0%B8%D0%BC%D0%BE%D0%BD.jpg);
+}
+.container-fluid {
+  padding: 0;
+}
+.phone {
+  font-size: 20px;
+  padding-right: 20px;
+}
+.navbar-toggle .icon-bar:nth-of-type(1) {
+  background-color: #007bff;
+}
+.navbar-toggle .icon-bar:nth-of-type(2) {
+    top: 1px;
+    background-color: #007bff;
+}
+.navbar-toggle .icon-bar:nth-of-type(3) {
+    top: 2px;
+    margin-bottom: 5px;
+    background-color: #007bff;
+}
+.navbar-toggle .icon-bar {
+    position: relative;
+    transition: all 200ms ease-in-out;
+}
+.navbar-toggle.active .icon-bar:nth-of-type(1) {
+    top: 6px;
+    transform: rotate(45deg);
+    background-color: #e0d20a;
+}
+.navbar-toggle.active .icon-bar:nth-of-type(2) {
+    background-color: transparent;
+}
+.navbar-toggle.active .icon-bar:nth-of-type(3) {
+    top: -6px;
+    transform: rotate(-45deg);
+    background-color: #e0d20a;
+}
+
+.icon-bar {
+	width: 22px; 
+	height: 2px;
+	background-color: #B6B6B6;
+	display: block;
+	transition: all 0.2s;
+	margin-top: 4px
+}
+.navbar-toggle {
+  border-color: #007bff;
+  background: transparent !important;
+}
+.dropdown-menu {
+  top: 130%;
+  left: -195px;
+}
+.dropdown-item {
+  color: #060d70;
+  font-weight: 800;
+}
+
+.carousel-inner {
+  left: 50%;
+  margin-left: -500px;
+}
+.carousel-item {
+  height: 300px;
+  text-transform: uppercase;
+}
+.carousel-caption {
+  left: -12%;
+  color: #060d70;
+}
+.carousel-control-prev {
+  left: 10%;
+}
+.carousel-control-next {
+right: 10%;
+}
+.col {
+  margin: 20px;
+}
+#col-a {
+  text-decoration: none;
+}
+.title {
+  height: 40px;
+  color: #eee670;
+  text-align: center;
+  font-size: 2em;
+  background: #060d70;
+  line-height: 1.1em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.col img {
+  max-width: 100%;
+}
+.page-footer a {
+  text-decoration: none;
+  color: white;
+}
+.line {
+  padding: 2px;
+}
