@@ -1,0 +1,64 @@
+@import './discount.css';
+@import './program.css';
+@import './production.css';
+@import './office.css';
+@import './service.css';
+@import './store.css';
+@import './header.css';
+body {
+  background: url(http://oboi-dlja-stola.ru/file/10001/760x0/16:9/%D0%97%D0%B5%D0%BB%D0%B5%D0%BD%D1%8B%D0%B9-%D0%BB%D0%B8%D0%BC%D0%BE%D0%BD.jpg);
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+/* .carousel-inner {
+  left: 50%;
+  margin-left: -500px;
+}
+.carousel-item {
+  height: 300px;
+  text-transform: uppercase;
+}
+.carousel-caption {
+  left: -12%;
+  color: #060d70;
+}
+.carousel-control-prev {
+  left: 10%;
+}
+.carousel-control-next {
+right: 10%;
+} */
+
+.main-content .col {
+  margin: 20px;
+  
+}
+.main-content #col-a {
+  text-decoration: none;
+  
+}
+.main-content .col img {
+  max-width: 100%;
+}
+.main-content .title {
+  height: 40px;
+  color: #eee670;
+  text-align: center;
+  font-size: 2em;
+  background: #060d70;
+  line-height: 1.1em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.page-footer a {
+  text-decoration: none;
+  color: white;
+}
+.line {
+  padding: 2px;
+}
